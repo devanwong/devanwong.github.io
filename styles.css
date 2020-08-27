@@ -40,7 +40,11 @@ h1 {
 .sideNav a {
     color: #ffffff;
     font-size: 1.25em;
+<<<<<<< HEAD
     /* transition: all 0.3s; */
+=======
+    transition: all 0.3s;
+>>>>>>> 924a29c9da12d5755a1dd4db0a7390babdd85753
 }
 .social a {
     font-size: 1em;
