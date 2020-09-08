@@ -6,11 +6,11 @@
 	<meta name="robots" content="noindex">
 	<meta http-equiv="author" content="Devan Wong">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>Devan's Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
             crossorigin="anonymous">
     <link rel="stylesheet" href="../styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Open+Sans:wght@300;400;600&display=swap');
     </style>
@@ -22,11 +22,11 @@
             <div class="sidebar-header">
                 <img src="../images/devthedev.png" alt="Devan Wong" width="100">
                 <h1>DevtheDev</h1>
-                <span class="social"><a href="../images/wong-resume-2020.pdf">Resume</a> | <a href="https://www.linkedin.com/in/devanwong/">LinkedIn</a> | <a href="https://github.com/devanwong">Github</a></span>         
+                <span class="social"><a href="../images/wong-resume-2020.pdf" target="_blank">Resume</a> | <a href="https://www.linkedin.com/in/devanwong/" target="_blank">LinkedIn</a> | <a href="https://github.com/devanwong" target="_blank">Github</a></span>
             </div>
             <ul class="list-unstyled components">
                 <li><a href="about.html">About</a></li>
-                <li><a href="#">BioSite</a></li>
+                <li><a href="biosite.html">BioSite</a></li>
                 <li><a href="personal.html">Personal Prototype</a></li>
                 <li><a href="web-230.html">Web-230's Repository</a></li>
                 <li><a href="web-330.html">Web-330's Repository</a></li>
@@ -36,16 +36,20 @@
         <div class="right-side">
             <div class="content">
                 <div class="intro">
-                    <h1>This my Bio Site.</h1>
-                    <p><b>Description:</b> This was a part of my final in my WEB 220 class. This final was interviewing someone and creating a personal website for them. I interviewed my sister Cassie. She has travelled all over the world and had many photos to share. I decided to create a parallex layout to dispay her images, while throwing in some Javascript to give it some cool features.</p><br>
-                    <img src="../images/biosite-gallery-img.png" alt="Sassy Cassie" width="500"><br><br>
-                    <p>Repo: <a href="https://github.com/devanwong/bioSite">https://github.com/devanwong/bioSite</a></p>
-                    <p>Website: <a href="https://devanwong.github.io/bioSite/">https://devanwong.github.io/bioSite/</a></p>
-                    <p>Prototype: <a href="../images/wong_prototype.pdf">Prototype & Ideas</a></p>
+                    <h1>This my Web 230 class.</h1>
+                    <p><b>Description:</b>This web class was an intro  to Javascript, where we learned things like manipulating the DOM, functions and objects. Console.log becomes our best friend.</p>
+                    <p>Repo: <a href="https://github.com/devanwong/web-231">https://github.com/devanwong/web-231</a></p>
+                </div>
+                <img id="myImg" src="../images/web-230.png" alt="Web 230" style="width:100%;max-width:300px">
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
                 </div>
             </div>
         </div>
         <!-- /content -->
+        <script src="../app.js"></script> 
     </div>
 </body>
 </html>
