@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="../styles.css">
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-
 </head>
 <body>
     <div class="wrapper">
@@ -37,16 +36,25 @@
         <div class="right-side">
             <div class="content">
                 <div class="intro">
-                    <h1>This my Web 230 class.</h1>
-                    <p><b>Description:</b>This web class was an intro  to Javascript, where we learned things like manipulating the DOM, functions and objects. Console.log becomes our best friend.</p>
-                    <p>Repo: <a href="https://github.com/devanwong/web-231">https://github.com/devanwong/web-231</a></p>
+                    <h1>These are my Diagrams</h1>
+                    <p><b>Description:</b> This is Web 335 - No SQL. This is showcasing relationships.</p>
+                    <p>Repo: <a href="https://github.com/devanwong/web-335">https://github.com/devanwong/web-335</a></p>
                 </div>
-                <img class="myImages" id="myImg" src="../images/web-230.png" alt="Web 230" style="width:100%;max-width:300px">
+                <br/>
+                <!-- MODAL -->
+                <img class="myImages" id="myImg" src="../nosql-datadiagrams/wong-nosql.png" alt="Data Models NoSQL data structures" style="width:100%;max-width:300px">&nbsp;&nbsp;
+                <img class="myImages" id="myImg" src="../nosql-datadiagrams/wong-ord.png" alt="Data Modals: Object Relational Diagram" style="width:100%;max-width:300px">
                 <div id="myModal" class="modal">
                     <span class="close">&times;</span>
                     <img class="modal-content" id="img01">
                     <div id="caption"></div>
                 </div>
+                <!-- /MODAL -->
+                <br><br>
+                <!-- back button -->
+                <form>
+                    <input class="btn btn-primary" type="button" value="Go back" onclick="history.back()">
+                 </form>
             </div>
         </div>
         <!-- /content -->
