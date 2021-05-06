@@ -59,7 +59,6 @@ h1 {
     border-radius: 40px;
 }
 
-  /* Dropdown Button */
   .dropbtn {
     background-color: #7386D5;
     color: white;
@@ -68,13 +67,11 @@ h1 {
     border: none;
   }
   
-  /* The container <div> - needed to position the dropdown content */
   .dropdown {
     position: relative;
     display: inline-block;
   }
   
-  /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
     display: none;
     position: absolute;
@@ -83,8 +80,8 @@ h1 {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
-  /* Links inside the dropdown */
-  .dropdown-content a {
+
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -92,15 +89,19 @@ h1 {
     font-size: 1em;
   }
   
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #7386D5;text-decoration: underline;}
-  
+.dropdown-content a:hover {
+  background-color: #dddddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #7386D5;
+  text-decoration: underline;
+}
+
   
   
 
@@ -166,7 +167,6 @@ h1 {
     from {transform:scale(0)} 
     to {transform:scale(1)}
   }
-  /* The Close Button */
   .close {
     position: absolute;
     top: 15px;
